@@ -169,3 +169,79 @@ html, body {
 .inter-row-padding {
 	padding-top: 20px;
 }
+
+.percent-button {
+	position: absolute;
+	right: 40px;
+	top: 40px;
+	font:inherit;
+	border: solid black 1px;
+	font-size: 16px;
+}
+
+.dashboard-chartbg {
+	background: white;
+	background-clip: content-box;
+}
+
+.canvas-padding {
+	padding: 10px;
+}
+
+.bottom-row {
+	padding-bottom: 50px;
+}
+
+.gallery-item {
+	background: white;
+	background-clip: content-box;
+}
+
+.gallery-image {
+	width: inherit;
+}
+
+.image-description {
+	position: absolute;
+	right: 10%;
+	left: 37%;
+	top: 10px;
+}
+
+.comp-number {
+	font-size: 42px;
+	text-align: center;
+	background: white;
+	margin: 0;
+}
+
+.comp-number p {
+	margin: 0;
+}
+
+.comp-middle {
+	font-size: 20px;
+	text-align: center;
+	background: white;
+	padding: 15px;
+}
+
+.comp-middle p {
+	margin: 0;
+}
+
+.image-bg {
+	background: white;
+}
+
+.row .same-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row .same-height > [class*='col-md-4'] {
+  display: flex;
+  flex-direction: column;
+}

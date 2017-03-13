@@ -115,14 +115,29 @@
             </div>
 
             <div class="row inter-row-padding">
-              <div class="col-md-6 col-sm-12">
-                
-                <canvas id="myChart" width="400" height="400"></canvas>
-
+              <div class="col-md-6 col-sm-12 dashboard-chartbg">
+                <button class="percent-button" id="toggle-button-ad-perf">%/#</button>
+                <canvas id="ad-performance-chart" width="400" height="300" class="canvas-padding"></canvas>
               </div>
-              <div class="col-md-6 col-sm-12">
-                <h1 class="top-cell-content">23%</h1>
-                <p class="top-cell-content">Impressions yesterday</p>
+              <div class="col-md-6 col-sm-12 dashboard-chartbg">
+                <!-- <button class="percent-button" id="toggle-button-ad-perf">%/#</button> -->
+                <canvas id="ad-performance-lines" width="400" height="300" class="canvas-padding"></canvas>
+              </div>
+            </div>
+
+
+            <div class="row inter-row-padding bottom-row ">
+              <div class="col-md-3 col-sm-12 dashboard-chartbg">
+                <canvas id="male-noimp-chart" width="300" height="300" class="canvas-padding"></canvas>
+              </div>
+              <div class="col-md-3 col-sm-12 dashboard-chartbg">
+                <canvas id="male-imp-chart" width="300" height="300" class="canvas-padding"></canvas>
+              </div>
+              <div class="col-md-3 col-sm-12 dashboard-chartbg">
+                <canvas id="female-noimp-chart" width="300" height="300" class="canvas-padding"></canvas>
+              </div>
+              <div class="col-md-3 col-sm-12 dashboard-chartbg">
+                <canvas id="female-imp-chart" width="300" height="300" class="canvas-padding"></canvas>
               </div>
             </div>
 
@@ -136,8 +151,6 @@
               </footer>
             </div>
           </div>
-
-
 
         </div>
       </div>
